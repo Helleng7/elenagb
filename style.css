@@ -6,7 +6,6 @@
 .header {
     background: #222222;
     padding: 19px 0;
-    color: white;
 }
 .header__flex {
     display: flex;
@@ -145,8 +144,67 @@
     padding: 14px 40px;
     display: inline-block;
     margin-top: 49px;
+    margin-bottom: 96px;
 }
 .button1:hover {
     background-color:#F16D7F;;
     color: white;
+}
+.footer__back {
+    background:  #222224;
+    padding-top: 104px;
+}
+
+.footer__service {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.services {
+    text-align: center;
+    padding-bottom: 105px;
+}
+.text__service {
+    font-size: 20px;
+    line-height: 24px;
+    color: #FBFBFB;
+    margin-top: 30px;
+}
+.text__serv {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    margin-top: 16px;
+}
+.footer__header {
+    background: url(image/Otzivi.png);
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+.footer__flex {
+    margin-left: 100px;
+    text-align: center;
+}
+.footer__text {
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 330px;
+    margin-top: 23px;
+    color: white;
+}
+.footer__subscribe {
+    display: flex;
+}
+.subscribe {
+    font-family: Lato;
+    font-size: 14px;
+    text-align: center;
+}
+.decor__sub {
+    font-weight: bold;
 }
